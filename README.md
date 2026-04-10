@@ -32,6 +32,8 @@ If you want to explore the code or build it yourself:
 
 ```bash
 git clone [https://github.com/0xbedo/Android-Attack-Surface-Labs.git](https://github.com/0xbedo/Android-Attack-Surface-Labs.git)
+```
+
 ---
 
 ## 📱 Project Overview
@@ -69,5 +71,9 @@ This application provides a **unified environment** to explore and exploit commo
 | **Content Provider**   |  5   | SQL Injection, URI Matcher exploitation, and unauthorized Provider access.          |
 | **File Provider**      |  4   | Path Traversal, Root-file access, and Overwriting Shared Preferences.               |
 | **WebView**            |  4   | `@JavascriptInterface` bridge exploitation, XSS, and SOP bypass via `content://`.   |
+
 ---
+
+```
+
 ```
