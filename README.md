@@ -31,7 +31,7 @@ You can download the compiled Exploit App from the **[Releases Section](https://
 If you want to explore the code or build it yourself:
 
 ```bash
-git clone [https://github.com/0xbedo/Android-Attack-Surface-Labs.git](https://github.com/0xbedo/Android-Attack-Surface-Labs.git)
+git clone https://github.com/0xbedo/Android-Attack-Surface-Labs.git
 ```
 
 ---
