@@ -6,8 +6,32 @@
 
 A practical Android Security project that consolidates **41 real-world PoCs (Proof of Concepts)** into a single application.
 
-Originally solved as separate labs from the **Hextree.io** Android Security course, this project was rebuilt to **deepen understanding of Android internals and vulnerability exploitation** — transforming isolated challenges into a **complete attack surface playground**.
+Originally solved as separate labs from the **Hextree.io** Android Security course (sponsored by **Google**), this project was rebuilt to **deepen understanding of Android internals and vulnerability exploitation** — transforming isolated challenges into a **complete attack surface playground**.
 
+---
+
+## 🎯 Prerequisites & Target App
+
+To test these exploits, you must have the **Hextree Attack Surface** vulnerable application installed on your Android device or emulator.
+
+📥 **Download Target APK:** [io.hextree.attacksurface.apk](https://storage.googleapis.com/hextree_prod_image_uploads/media/uploads/intent-threat-surface/io.hextree.attacksurface.apk?28672932)
+
+> **Note:** This project is designed specifically to interact with the Hextree lab environment as part of the [Android App Security](https://app.hextree.io/map/android) course.
+
+---
+
+## 📥 Download & Installation
+
+### 1. Ready-to-use APK
+
+You can download the compiled Exploit App from the **[Releases Section](https://github.com/0xbedo/Android-Attack-Surface-Labs/releases)**.
+
+### 2. Build from Source
+
+If you want to explore the code or build it yourself:
+
+```bash
+git clone [https://github.com/0xbedo/Android-Attack-Surface-Labs.git](https://github.com/0xbedo/Android-Attack-Surface-Labs.git)
 ---
 
 ## 📱 Project Overview
@@ -45,15 +69,5 @@ This application provides a **unified environment** to explore and exploit commo
 | **Content Provider**   |  5   | SQL Injection, URI Matcher exploitation, and unauthorized Provider access.          |
 | **File Provider**      |  4   | Path Traversal, Root-file access, and Overwriting Shared Preferences.               |
 | **WebView**            |  4   | `@JavascriptInterface` bridge exploitation, XSS, and SOP bypass via `content://`.   |
-
 ---
-
-## 🛠️ Build & Installation
-
-```bash
-git clone https://github.com/0xbedo/Android-Attack-Surface-Labs.git
 ```
-
-## 📥 Download
-
-You can download the ready-to-install APK from the [Releases Section](https://github.com/0xbedo/Android-Attack-Surface-Labs/releases).
