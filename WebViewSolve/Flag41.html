@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PostMessage</title>
+  </head>
+  <body>
+    <h1>Flag41 - PostMessage Exploit</h1>
+    <script>
+      window.addEventListener("message", function (event) {
+        if (event.ports && event.ports.length > 0) {
+          const myport = event.ports[0];
+
+          myport.addEventListener("message", function (e) {
+            if (e.data === "init") {
+              myport.postMessage(JSON.stringify({ message: "init_complete" }));
+              myport.postMessage(JSON.stringify({ message: "success" }));
+            }
+          });
+          myport.start();
+        }
+      });
+    </script>
+  </body>
+</html>
