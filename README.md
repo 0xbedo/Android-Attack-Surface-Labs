@@ -66,7 +66,7 @@ This application provides a **unified environment** to explore and exploit commo
 | **Implicit Intent**    |  3   | Hijacking non-specific intents and manipulating intent conditions.                  |
 | **DeepLink**           |  3   | Custom schemes (`hex://`), Intent schemes, and Web login hijacking.                 |
 | **Broadcast Receiver** |  6   | Hijacking system/notification intents and exploiting notification button responses. |
-| **PendingIntent**      |  2   | Mutable PendingIntent hijacking and privilege escalation.                           |
+| **PendingIntent**      |  2   | Mutable PendingIntent hijacking.                                                    |
 | **Service**            |  6   | Exploiting AIDL interfaces, Message Handlers, and Service Lifecycle.                |
 | **Content Provider**   |  5   | SQL Injection, URI Matcher exploitation, and unauthorized Provider access.          |
 | **File Provider**      |  4   | Path Traversal, Root-file access, and Overwriting Shared Preferences.               |
